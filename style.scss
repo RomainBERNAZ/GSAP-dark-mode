@@ -1,0 +1,55 @@
+*{
+    cursor: none;
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: none;
+    background-color: white;
+    
+}
+
+.container{
+    padding-top: 5vh;
+    display: flex;
+    cursor: none;
+
+
+    .sun{
+        position: absolute;
+        right: 10vw;
+    }
+
+    .moon{
+        position: absolute;
+        right: 10vw;
+
+        #moonIcn{
+            display: none;
+        }
+
+    }
+    .cursor{
+        height: 20px;
+        width: 20px;
+        color: lightgray;
+        border: 2px solid;
+        border-radius: 50%;
+        position: absolute;
+        pointer-events: none;
+        mix-blend-mode: difference;
+    }
+
+    .text{
+        position: absolute;
+        right: 30vw;
+        top: 20vh;
+        font-size: 30px;
+        
+        
+    }
+
+    
+
+}
